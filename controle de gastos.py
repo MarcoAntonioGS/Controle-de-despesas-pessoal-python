@@ -10,8 +10,8 @@ def criar_conexao():
     try:
         conn = mysql.connector.connect(
             host='localhost',
-            user='root',  # Substitua pelo seu nome de usuário do MySQL
-            password='221203Ma',  # Substitua pela sua senha do MySQL
+            user='usuario',  # Substitua pelo seu nome de usuário do MySQL
+            password='senha',  # Substitua pela sua senha do MySQL
             database='controle_gastos'
         )
         if conn.is_connected():
